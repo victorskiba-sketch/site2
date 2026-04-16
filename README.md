@@ -1,1 +1,51 @@
 # site2
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho: Campo e Cidade Conectados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="container nav-wrapper" aria-label="Navegação Principal">
+            <div class="logo">Agrinho 2026</div>
+            <div class="accessibility-controls">
+                <button onclick="changeFontSize('increase')" aria-label="Aumentar Fonte">A+</button>
+                <button onclick="changeFontSize('decrease')" aria-label="Diminuir Fonte">A-</button>
+                <button onclick="toggleContrast()" aria-label="Alternar Alto Contraste">◐</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero reveal">
+            <div class="container">
+                <h1>Sustentabilidade: Do Campo ao Copo</h1>
+                <p>Conectando o saber rural à inovação tecnológica das cidades.</p>
+            </div>
+        </section>
+
+        <section id="features" class="container reveal" aria-labelledby="features-title">
+            <h2 id="features-title">Nossos Pilares</h2>
+            <div class="grid-layout" id="cards-container">
+                </div>
+        </section>
+
+        <section class="container reveal">
+            <h2>Dúvidas Frequentes</h2>
+            <div id="accordion-container">
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Projeto Agrinho - Educação e Sustentabilidade.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
